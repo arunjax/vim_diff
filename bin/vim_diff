@@ -1,4 +1,9 @@
 #!/usr/bin/env ruby
 
 require 'vim_diff'
-VimDiff::Generator.new(*ARGV).generate
+
+if ARGV[0] == "--install"
+  VimDiff::Installer.new.install
+else
+  VimDiff::Generator.new(*ARGV).generate
+end

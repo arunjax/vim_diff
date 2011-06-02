@@ -1,3 +1,5 @@
+require 'installer.rb'
+
 module VimDiff
   class Generator
 
