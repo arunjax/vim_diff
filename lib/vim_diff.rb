@@ -1,0 +1,3 @@
+module VimDiff
+  # Your code goes here...
+end
