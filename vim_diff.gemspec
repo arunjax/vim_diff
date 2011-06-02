@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.name        = "vim_diff"
   s.version     = VimDiff::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
+  s.authors     = ["Arun Kumar Arjunan"]
+  s.email       = ["arun.immanuel1608@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Generate diff to HTML}
+  s.description = %q{vim_diff gem uses vim functionality to convert a normal diff to HTML}
 
   s.rubyforge_project = "vim_diff"
 
