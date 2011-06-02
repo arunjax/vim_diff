@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'vim_diff'
+VimDiff::Generator.new(*ARGV).generate
