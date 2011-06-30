@@ -1,0 +1,10 @@
+Tool to create HTML diff between 2 files.
+
+Installing the gem:
+sudo gem install vim_diff
+
+Setup:
+vim_diff --install
+
+Usage:
+vim_diff /path/to/file1 /path/to/file2 /path/to/output.html
